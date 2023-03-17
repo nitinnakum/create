@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="myDiv" class="container">
+        <div class="box">
+            <div class="hadding">
+                <h1>My To Do List</h1>
+            </div>
+            <div class="serch">
+                <input id="input1" type="text" id="myInput" placeholder="Title...">
+                <button onclick="newElement()">add</button>
+            </div>
+        </div>
+        <div class="hero">
+            <ul class="myul">
+                <li class="close">Regular stard up <button id="close" class="delete-list-single-item" onclick="deleteListItem(event)">X</button></li> 
+            </ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

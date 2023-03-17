@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: red;
+}
+
+.hadding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.serch{
+   display: flex;
+   justify-content: center;
+   height: 60px;
+}
+
+.serch input{
+    width: 500px;
+    height: 30px;
+}
+
+.serch button{
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 1px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    border: 1px solid green;
+    margin: 2px;
+    padding: 8px 15px;
+    list-style: none;
+    width: 570px;
+    height: 20px;
+    position: relative;
+}
+
+li button{
+    position: absolute;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+}
